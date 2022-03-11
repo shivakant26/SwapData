@@ -1,0 +1,180 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.logo,.left-content{
+float: left;
+width: 30%;
+}
+.menu-,.right-content{
+float: right;
+width: 70%;
+}
+
+.menu a{
+  text-decoration: none;
+  color:#fff;
+  font-size:18px;
+  transition: .4s;
+  padding: 0px 20px;
+}
+.menu a:hover{
+  color:rgb(6, 4, 99)
+}
+#send{
+  background-color:#9c27b0;
+}
+.form-field{
+  margin-bottom: 25px;
+}
+.form{
+  padding: 25px;
+}
+.form-inner{
+  box-shadow: 0px 0px 18px rgb(0 0 0 / 50%);
+  padding: 41px;
+}
+.thead{
+  background-color: black;
+  color:#fff;
+  font-weight: bold;
+}
+.thead .th{
+  color: #fff;
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+}
+.table{
+padding: 25px;
+}
+.select{
+  width: 231px;
+  padding: 15px;
+}
+.card{
+  box-shadow: 0px 0px 9px green;
+  padding:10px;
+  text-align: center;
+  margin: 22px;
+}
+.active{
+  background-color: green;
+  border:1px solid green;
+  color:#fff;
+  text-transform: capitalize;
+  padding: 5px;
+  transition: .4s;
+  border-radius:2px;
+}
+.active:hover{
+  background-color: #9c27b0;
+  border: 1px solid #9c27b0;
+}
+.dactive{
+  background-color: red;
+  border:1px solid red;
+  padding: 5px;
+  border-radius: 2px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.item{
+  padding:0px 10px;
+}
+.dcard{
+  box-shadow: 0px 0px 9px red;
+  padding: 10px;
+  text-align: center;
+  margin: 22px;
+}
+.errmsg{
+  color: red;
+  margin: 0;
+  position: absolute;
+}
+.Active{
+  float: left;
+  width: 48%;
+  box-shadow: 0px 0px 4px rgb(0 0 0 / 50%);
+}
+.Unactive{
+  float: right;
+  width: 48%;
+  box-shadow: 0px 0px 4px rgb(0 0 0 / 50%);
+}
+.id{
+  float: left;
+  width: 10%;
+}
+.sap{
+  float: left;
+  width: 25%;
+}
+.sap1{
+  float: left;
+  width: 40%;
+}
+.active-heading,.unactive-heading{
+  background: black;
+  margin: 0;
+  padding: 18px;
+  color: green;
+}
+.unactive-heading{
+  color:red;
+}
+.form-field1{
+  position: relative;
+  padding: 0px 0px 20px 0px;
+ 
+}
+.swap-app{
+  text-align: center;
+}
